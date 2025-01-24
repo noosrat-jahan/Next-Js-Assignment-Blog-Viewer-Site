@@ -25,7 +25,7 @@ const Navbar = () => {
 
 					</ul>
 					{
-						isAuthenticated ? <LogoutLink>
+						isAuthenticated ? <LogoutLink prefetch={false}>
 							<button className="self-center px-8 py-3 font-semibold rounded bg-amber-400 text-xl text-gray-900">Logout</button>
 						</LogoutLink>
 							: 
